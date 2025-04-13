@@ -149,11 +149,19 @@
                 let query = document.getElementById("searchInput").value.toLowerCase();
                 if (query.includes("géologie")) {
                     window.location.href = "géologie.html";
+                } else if (query.includes("Géologie")) {
+                    window.location.href = "géologie.html";
                 } else if (query.includes("SIG")) {
-                    window.location.href = "sig";
+                    window.location.href = "services.html";
+                } else if (query.includes("sig")) {
+                    window.location.href = "services.html";
                 } else if (query.includes("hydrologie")) {
                     window.location.href = "hydrogéologie.html";
+                } else if (query.includes("Hydrologie")) {
+                    window.location.href = "hydrogéologie.html";
                 } else if (query.includes("services")) {
+                    window.location.href = "services.html";
+                } else if (query.includes("Services")) {
                     window.location.href = "services.html";
                 } else {
                     alert("Aucune page correspondante trouvée");
