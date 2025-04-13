@@ -222,12 +222,20 @@
             var query = document.getElementById('searchInput').value.toLowerCase();
 
             if (query.includes("géologie")) {
-                window.location.href = "services.html"; // Remplacez par l'URL de la page géologie
+                window.location.href = "géologie.html"; // Remplacez par l'URL de la page géologie
+            } else if (query.includes("Géologie")) {
+                window.location.href = "géologie.html"; // Remplacez par l'URL de la page hydrologie
             } else if (query.includes("hydrologie")) {
-                window.location.href = "services.html"; // Remplacez par l'URL de la page hydrologie
+                window.location.href = "hydrogéologie.html"; // Remplacez par l'URL de la page hydrologie
+            } else if (query.includes("Hydrologie")) {
+                window.location.href = "hydrogéologie.html"; // Remplacez par l'URL de la page hydrologie
             } else if (query.includes("sig")) {
                 window.location.href = "services.html"; // Remplacez par l'URL de la page SIG
+            } else if (query.includes("SIG")) {
+                window.location.href = "services.html"; // Remplacez par l'URL de la page SIG
             } else if (query.includes("services")) {
+                window.location.href = "services.html"; // Remplacez par l'URL de la page SIG
+            } else if (query.includes("Services")) {
                 window.location.href = "services.html"; // Remplacez par l'URL de la page SIG
             } else {
                 alert("Aucun résultat trouvé pour votre recherche.");
